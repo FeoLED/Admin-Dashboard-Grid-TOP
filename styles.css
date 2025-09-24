@@ -1,0 +1,31 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400);
+*{
+    border: solid 1px red;
+    font-family: 'ABeeZee', sans-serif;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 1fr 1fr 1fr;
+}
+.dashboard{
+    background-color: lightblue;
+    grid-area: 1/1/5/2;
+}
+.nav{
+    background-color: limegreen;
+    grid-area: 1/2/2/5;
+}
+.main{
+    background-color:darkorchid;
+    grid-area:2/2/5/4;
+}
+.aside{
+    background-color: violet;
+    grid-area:2/-2/5/-1;
+}
+
+.userIcon{
+    border-radius: 50%;
+    width:50px;
+}
