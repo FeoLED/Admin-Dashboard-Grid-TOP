@@ -1,31 +1,54 @@
 @import url(https://fonts.bunny.net/css?family=abeezee:400);
-*{
-    border: solid 1px red;
+
+body, html{
+    margin: auto;
     font-family: 'ABeeZee', sans-serif;
 }
 .container{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 150px 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 3fr;
+    background-image: linear-gradient(to top, #1d1c1e, #261c32, #2e1b48, #33195e, #381575, #381575, #381575, #381575, #33195e, #2e1b48, #261c32, #1d1c1e);
+    color:antiquewhite;
 }
 .dashboard{
-    background-color: lightblue;
-    grid-area: 1/1/5/2;
+    background-image: radial-gradient(circle, #ff6900, #fd8400, #f99d00, #f3b400, #ebca12);
+    color:#000;
+    grid-area: 1/1/3/2;
 }
 .nav{
-    background-color: limegreen;
+    border:1px solid red;
     grid-area: 1/2/2/5;
 }
 .main{
-    background-color:darkorchid;
-    grid-area:2/2/5/4;
+    border:1px solid red;
+    grid-area:2/2/3/4;
 }
 .aside{
-    background-color: violet;
-    grid-area:2/-2/5/-1;
+    border:1px solid red;
+    grid-area:2/-2/3/-1;
 }
 
 .userIcon{
     border-radius: 50%;
     width:50px;
+}
+.profilePic{
+    border-radius: 50%;
+    width:100px;
+}
+
+.trendingIcon{
+    border-radius:50%;
+    width: 70px;
+}
+.dashboardIcon{
+    width: 30px;
+
+}
+.searchIcon, .notificationIcon{
+    width:25px;
+}
+.eyeIcon, .starIcon, .forkIcon{
+    width:25px;
 }
