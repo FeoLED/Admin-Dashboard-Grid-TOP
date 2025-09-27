@@ -4,9 +4,9 @@ A responsive admin dashboard mockup built as a solution for The Odin Project's c
 
 [Live Demo](https://feoled.github.io/Admin-Dashboard-Grid-TOP/)
 
-[Full View Screenshot](assets/images/Screenshot%202025-09-27%20at%2012-00-57%20.png) 
+[Full View Screenshot](assets/images/full-screenshot.png) 
 
-[Shrunk View Screenshot](assets/images/Screenshot%202525-09-27%20at%2012-01-36%20.png)
+[Shrunk View Screenshot](assets/images/shrunk-screenshot.png)
 
 ## Features
 
